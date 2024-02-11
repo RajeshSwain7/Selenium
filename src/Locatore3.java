@@ -10,7 +10,7 @@ public class Locatore3 {
 		WebDriver driver = new ChromeDriver();
 		
 		// Sibling -Parent to child traverse
-		////header/div/button[1]/following-sibling::button[1]
+		////header/div/but ton[1]/following-sibling::button[1]
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());		
 		// Sibling -child to parent traverse
